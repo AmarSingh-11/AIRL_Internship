@@ -61,7 +61,6 @@ The primary challenge for ViT on CIFAR-10 is **data scarcity** and the lack of i
 
 1.  **Small Patch Size is Key:** The use of **$4 \times 4$ patches** (compared to $16 \times 16$ in the original paper) increases the sequence length ($64+1$ tokens). This implicitly forces the self-attention mechanism to learn **finer-grained relationships**, partially compensating for the missing convolutional locality.
 2.  **Depth/Width Trade-offs:** The configuration prioritizes a wider model (`hidden_size=384`) over a much deeper one (`depth=8`). This maximizes the representational capacity of each layer while keeping the total parameter count manageable and enabling faster convergence.
-3.  **High Regularization:** The combination of **Label Smoothing** and a very high $\text{DropPath}=0.20$ is necessary. Without $\text{DropPath} \ge 0.15$, the model rapidly memorizes the training data, leading to a large $\text{train\_acc} - \text{test\_acc}$ gap.
 
 -----
 
