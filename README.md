@@ -10,8 +10,8 @@ All code is designed for end-to-end execution on the Google Colab environment (p
 
 1.  **Clone the Repository:**
     ```bash
-    !git clone https://github.com/your-username/your-repo-name.git
-    %cd your-repo-name
+    !git clone https://github.com/AmarSingh-11/AIRL_Internship.git
+    %cd AIRL_Internship
     ```
 2.  **Run Q1.ipynb (ViT from Scratch):** Execute all cells to train the custom Vision Transformer on CIFAR-10. This process will log the final metrics and save the best model checkpoint.
 3.  **Run Q2.ipynb (SAM 2 Segmentation):** Execute all cells. This notebook includes all necessary dependency installations and demonstrates the text-driven segmentation pipeline for a single image and prompt.
