@@ -1,7 +1,3 @@
-It appears you want the final, comprehensive `README.md` file that addresses all the requirements and incorporates the information from your provided Jupyter Notebooks (`Q1.ipynb`, `Q1_1(using Pretrained_models).1.ipynb`, and `Q2.ipynb`).
-
-I will generate the `README.md` with placeholders for the final quantitative results, as the notebooks themselves show the setup but not the final accuracy number needed for the table.
-
 ## 📝 README.md
 
 This repository contains the solution notebooks for the technical assessment, covering the implementation of a Vision Transformer (ViT) on CIFAR-10 from scratch (Q1) and text-driven image segmentation using the SAM 2 pipeline (Q2).
